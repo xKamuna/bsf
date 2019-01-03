@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE6DA378-480B-3E1F-9128-2DFB6D111435}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\CMakeFiles\31a5594ae5c6c6d9ffc61479c6168a0d\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/bsfx86/bsf.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/bsfx86/CMakeFiles/31a5594ae5c6c6d9ffc61479c6168a0d/generate.stamp.rule;D:\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;D:\bsfx86\CMakeLists.txt;D:\bsfx86\Source\CMake\BsEngineConfig.h.in;D:\bsfx86\Source\CMake\BsFrameworkConfig.h.in;D:\bsfx86\Source\CMake\FindPackageOrBuild.cmake;D:\bsfx86\Source\CMake\HelperMethods.cmake;D:\bsfx86\Source\CMake\Modules\FindFBXSDK.cmake;D:\bsfx86\Source\CMake\Modules\FindFLAC.cmake;D:\bsfx86\Source\CMake\Modules\FindOpenAL.cmake;D:\bsfx86\Source\CMake\Modules\FindPhysX.cmake;D:\bsfx86\Source\CMake\Modules\FindXShaderCompiler.cmake;D:\bsfx86\Source\CMake\Modules\Findfreeimg.cmake;D:\bsfx86\Source\CMake\Modules\Findfreetype.cmake;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findogg.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\CMake\Modules\Findvorbis.cmake;D:\bsfx86\Source\CMake\Properties.cmake;D:\bsfx86\Source\CMakeLists.txt;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfSL\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfSL\CMakeSources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\bsfx86\CMakeFiles\generate.stamp;D:\bsfx86\Source\CMakeFiles\generate.stamp;D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfSL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/bsfx86/bsf.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/bsfx86/CMakeFiles/31a5594ae5c6c6d9ffc61479c6168a0d/generate.stamp.rule;D:\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;D:\bsfx86\CMakeLists.txt;D:\bsfx86\Source\CMake\BsEngineConfig.h.in;D:\bsfx86\Source\CMake\BsFrameworkConfig.h.in;D:\bsfx86\Source\CMake\FindPackageOrBuild.cmake;D:\bsfx86\Source\CMake\HelperMethods.cmake;D:\bsfx86\Source\CMake\Modules\FindFBXSDK.cmake;D:\bsfx86\Source\CMake\Modules\FindFLAC.cmake;D:\bsfx86\Source\CMake\Modules\FindOpenAL.cmake;D:\bsfx86\Source\CMake\Modules\FindPhysX.cmake;D:\bsfx86\Source\CMake\Modules\FindXShaderCompiler.cmake;D:\bsfx86\Source\CMake\Modules\Findfreeimg.cmake;D:\bsfx86\Source\CMake\Modules\Findfreetype.cmake;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findogg.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\CMake\Modules\Findvorbis.cmake;D:\bsfx86\Source\CMake\Properties.cmake;D:\bsfx86\Source\CMakeLists.txt;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfSL\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfSL\CMakeSources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\bsfx86\CMakeFiles\generate.stamp;D:\bsfx86\Source\CMakeFiles\generate.stamp;D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfSL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/bsfx86/bsf.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/bsfx86/CMakeFiles/31a5594ae5c6c6d9ffc61479c6168a0d/generate.stamp.rule;D:\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;D:\bsfx86\CMakeLists.txt;D:\bsfx86\Source\CMake\BsEngineConfig.h.in;D:\bsfx86\Source\CMake\BsFrameworkConfig.h.in;D:\bsfx86\Source\CMake\FindPackageOrBuild.cmake;D:\bsfx86\Source\CMake\HelperMethods.cmake;D:\bsfx86\Source\CMake\Modules\FindFBXSDK.cmake;D:\bsfx86\Source\CMake\Modules\FindFLAC.cmake;D:\bsfx86\Source\CMake\Modules\FindOpenAL.cmake;D:\bsfx86\Source\CMake\Modules\FindPhysX.cmake;D:\bsfx86\Source\CMake\Modules\FindXShaderCompiler.cmake;D:\bsfx86\Source\CMake\Modules\Findfreeimg.cmake;D:\bsfx86\Source\CMake\Modules\Findfreetype.cmake;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findogg.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\CMake\Modules\Findvorbis.cmake;D:\bsfx86\Source\CMake\Properties.cmake;D:\bsfx86\Source\CMakeLists.txt;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfSL\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfSL\CMakeSources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\bsfx86\CMakeFiles\generate.stamp;D:\bsfx86\Source\CMakeFiles\generate.stamp;D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfSL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/bsfx86/bsf.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/bsfx86/CMakeFiles/31a5594ae5c6c6d9ffc61479c6168a0d/generate.stamp.rule;D:\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;D:\bsfx86\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;D:\bsfx86\CMakeLists.txt;D:\bsfx86\Source\CMake\BsEngineConfig.h.in;D:\bsfx86\Source\CMake\BsFrameworkConfig.h.in;D:\bsfx86\Source\CMake\FindPackageOrBuild.cmake;D:\bsfx86\Source\CMake\HelperMethods.cmake;D:\bsfx86\Source\CMake\Modules\FindFBXSDK.cmake;D:\bsfx86\Source\CMake\Modules\FindFLAC.cmake;D:\bsfx86\Source\CMake\Modules\FindOpenAL.cmake;D:\bsfx86\Source\CMake\Modules\FindPhysX.cmake;D:\bsfx86\Source\CMake\Modules\FindXShaderCompiler.cmake;D:\bsfx86\Source\CMake\Modules\Findfreeimg.cmake;D:\bsfx86\Source\CMake\Modules\Findfreetype.cmake;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findogg.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\CMake\Modules\Findvorbis.cmake;D:\bsfx86\Source\CMake\Properties.cmake;D:\bsfx86\Source\CMakeLists.txt;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeSources.cmake;D:\bsfx86\Source\Plugins\bsfSL\CMakeLists.txt;D:\bsfx86\Source\Plugins\bsfSL\CMakeSources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\bsfx86\CMakeFiles\generate.stamp;D:\bsfx86\Source\CMakeFiles\generate.stamp;D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfPhysX\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfFreeImgImporter\CMakeFiles\generate.stamp;D:\bsfx86\Source\Plugins\bsfSL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

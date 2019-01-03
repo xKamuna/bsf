@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAPlugin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsWaveDecoder.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOggVorbisDecoder.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsFLACDecoder.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOggVorbisEncoder.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudioClip.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudio.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudioSource.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudioListener.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsWaveDecoder.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOggVorbisDecoder.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsFLACDecoder.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsAudioDecoder.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOggVorbisEncoder.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudioClip.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudio.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudioSource.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAAudioListener.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Plugins\bsfOpenAudio\BsOAWin32Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

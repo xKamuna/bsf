@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/bsfx86/Source/CMake/Modules/Findnvtt.cmake
+D:/bsfx86/Source/CMake/Modules/Findsnappy.cmake
+D:/bsfx86/Source/Foundation/CMakeLists.txt
+D:/bsfx86/Source/Foundation/bsfCore/CMakeSources.cmake
+D:/bsfx86/Source/Foundation/bsfEngine/CMakeSources.cmake
+D:/bsfx86/Source/Foundation/bsfUtility/CMakeSources.cmake
+D:/bsfx86/Source/Foundation/default_headers.h.cxx

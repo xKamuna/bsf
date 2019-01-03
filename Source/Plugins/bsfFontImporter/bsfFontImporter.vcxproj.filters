@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfFontImporter\BsFontPlugin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfFontImporter\BsFontImporter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfFontImporter\BsFontPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfFontImporter\BsFontImporter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Plugins\bsfFontImporter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Plugins\bsfFontImporter\BsFontWin32Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

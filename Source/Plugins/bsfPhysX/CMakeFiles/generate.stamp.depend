@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/bsfx86/Source/CMake/Modules/FindPhysX.cmake
+D:/bsfx86/Source/Plugins/bsfPhysX/CMakeLists.txt
+D:/bsfx86/Source/Plugins/bsfPhysX/CMakeSources.cmake

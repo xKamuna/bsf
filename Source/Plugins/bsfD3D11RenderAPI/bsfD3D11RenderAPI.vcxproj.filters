@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11VideoModeInfo.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11VertexBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11TimerQuery.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11TextureView.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11TextureManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Texture.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11SamplerState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderWindowManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderWindow.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderTexture.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderStateManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RasterizerState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11QueryManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Plugin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11OcclusionQuery.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Mappings.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11InputLayoutManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11IndexBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HLSLProgramFactory.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HLSLParamParser.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HardwareBufferManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HardwareBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuProgram.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuParamBlockBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuBufferView.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11EventQuery.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11DriverList.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Driver.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Device.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11DepthStencilState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11BlendState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderAPI.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderAPIFactory.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11CommandBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11CommandBufferManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11VideoModeInfo.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11VertexBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11TimerQuery.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11TextureView.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11TextureManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Texture.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11SamplerState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderWindowManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderWindow.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderTexture.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderStateManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RasterizerState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11QueryManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Prerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11OcclusionQuery.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Mappings.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11InputLayoutManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11IndexBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HLSLProgramFactory.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HLSLParamParser.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HardwareBufferManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11HardwareBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuProgram.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuParamBlockBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuBufferView.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11GpuBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11EventQuery.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11DriverList.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Driver.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Device.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11DepthStencilState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11BlendState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderAPI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11RenderAPIFactory.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11CommandBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11CommandBufferManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Plugins\bsfD3D11RenderAPI\BsD3D11Win32Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

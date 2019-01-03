@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/bsfx86/Source/CMake/Modules/FindFLAC.cmake
+D:/bsfx86/Source/CMake/Modules/FindOpenAL.cmake
+D:/bsfx86/Source/CMake/Modules/Findogg.cmake
+D:/bsfx86/Source/CMake/Modules/Findvorbis.cmake
+D:/bsfx86/Source/Plugins/bsfOpenAudio/CMakeLists.txt
+D:/bsfx86/Source/Plugins/bsfOpenAudio/CMakeSources.cmake

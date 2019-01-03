@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeast.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastFactory.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastTestSuite.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastPlugin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererLight.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererView.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererRenderable.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererDecal.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererParticles.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererReflectionProbe.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererScene.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderCompositor.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastIBLUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsTiledDeferred.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsStandardDeferred.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsLightGrid.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsLightProbes.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsShadowRendering.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsPostProcessing.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsGpuParticleSimulation.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsGpuSort.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsSamplerOverrides.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsRendererTextures.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeast.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastFactory.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererLight.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererView.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererRenderable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererDecal.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererParticles.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererReflectionProbe.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRendererScene.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderCompositor.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastIBLUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsTiledDeferred.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsStandardDeferred.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsLightGrid.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsLightProbes.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsShadowRendering.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsPostProcessing.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Shading\BsGpuParticleSimulation.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsGpuSort.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsSamplerOverrides.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsRendererTextures.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\Utility\BsTextureRowAllocator.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Plugins\bsfRenderBeast\BsRenderBeastWin32Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shading">
+      <UniqueIdentifier>{FEA3B843-6371-302C-A20A-40D01A5A6BCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{AE7F1A72-155F-37BF-AB1C-3883AEE3C6F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

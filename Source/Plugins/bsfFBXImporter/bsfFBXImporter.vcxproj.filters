@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXPlugin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXImportData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXImportData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Plugins\bsfFBXImporter\BsFBXWin32Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

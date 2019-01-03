@@ -1,0 +1,2734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\md5.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\TetGen\tetgen.cxx">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\TetGen\predicates.cxx">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColor.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsTextureAtlasLayout.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColorGradient.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLib.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLibManager.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMessageHandler.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTimer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTime.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUtil.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsCompression.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTriangulation.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUUID.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsLookupTable.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsDataStream.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsFileSystem.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsPath.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsAsyncOp.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsTaskScheduler.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsThreadPool.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsFrameAlloc.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsStackAlloc.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsMemoryAllocator.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsIReflectable.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIField.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIType.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsBitmapWriter.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsLog.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsAABox.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsDegree.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsPlane.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsQuaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRadian.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRay.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsSphere.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2I.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsBounds.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsConvexVolume.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsTorus.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2I.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLineSegment3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsCapsule.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLine2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestSuite.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestOutput.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsConsoleTestOutput.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsMemorySerializer.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsFileSerializer.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinarySerializer.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryDiff.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsSerializedObject.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryCloner.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Error\BsCrashHandler.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsStringID.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsUnicode.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32FileSystem.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32CrashHandler.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32PlatformUtility.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32Window.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsHString.cpp">
+      <Filter>Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTable.cpp">
+      <Filter>Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTableManager.cpp">
+      <Filter>Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMaterialRTTI.cpp">
+      <Filter>RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCommandQueue.cpp">
+      <Filter>CoreThread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObject.cpp">
+      <Filter>CoreThread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectManager.cpp">
+      <Filter>CoreThread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThread.cpp">
+      <Filter>CoreThread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThreadQueue.cpp">
+      <Filter>CoreThread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectCore.cpp">
+      <Filter>CoreThread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsUtility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsDeferredCallManager.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsIconUtility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerCPU.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerGPU.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilingManager.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBoxCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRigidbody.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphereCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCPlaneCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCapsuleCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCMeshCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCJoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCFixedJoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCHingeJoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDistanceJoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSliderJoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphericalJoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCD6Joint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCharacterController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioSource.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioListener.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCamera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRenderable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLight.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAnimation.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBone.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCReflectionProbe.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSkybox.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLightProbeVolume.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCParticleSystem.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDecal.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsDropTarget.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32FolderMonitor.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Platform.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32DropTarget.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Input.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Mouse.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Keyboard.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Gamepad.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImporter.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImportOptions.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsSpecificImporter.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsTextureImportOptions.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderIncludeImporter.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsMeshImportOptions.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderImportOptions.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLight.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderable.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererMeshData.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsParamBlocks.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsCamera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderSettings.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererExtension.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsReflectionProbe.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsSkybox.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLightProbeVolume.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsIBLUtility.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsGpuResourcePool.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsDecal.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsGpuResourceData.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResource.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceHandle.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceManifest.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResources.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceMetaData.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsSavedResourceData.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsIResourceListener.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsPass.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShader.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsTechnique.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParam.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderManager.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParams.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsGpuParamsSet.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderInclude.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderVariation.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFont.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFontImportOptions.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsTextData.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsBlendState.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsDepthStencilState.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsEventQuery.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuBuffer.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParam.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamBlockBuffer.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParams.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuProgram.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsIndexBuffer.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsOcclusionQuery.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRasterizerState.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTarget.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTexture.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderWindow.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsSamplerState.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTextureView.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTimerQuery.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexBuffer.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexData.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDeclaration.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVideoModeInfo.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPI.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPICapabilities.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsViewport.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsCommandBuffer.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineState.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineParamInfo.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDataDesc.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamDesc.cpp">
+      <Filter>RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\BsCoreApplication.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMaterial.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsRigidbody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsBoxCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphereCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPlaneCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCapsuleCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMesh.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsMeshCollider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFixedJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsDistanceJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsHingeJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSliderJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphericalJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsD6Joint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCharacterController.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsComponent.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectHandle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefab.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabDiff.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabUtility.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsTransform.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneActor.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClip.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioListener.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioSource.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClipImportOptions.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioUtility.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioManager.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationCurve.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationClip.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeleton.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationUtility.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeletonMask.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsMorphShapes.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsGpuProgramManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsHardwareBufferManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsMeshManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsQueryManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderStateManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderWindowManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderAPIManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsCommandBufferManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsTextureManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsResourceListenerManager.cpp">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelData.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsTexture.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelUtil.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsSpriteTexture.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshBase.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshData.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshHeap.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsTransientMesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshUtility.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleSystem.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEmitter.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEvolver.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleManager.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleDistribution.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsVectorField.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImportOptions.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImporter.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCode.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainTextImporter.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainText.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResources.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsEngineShaderIncludeHandler.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsGameResourceManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResourcesHelper.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Script\BsScriptManager.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElement.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILabel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISkin.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayout.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutX.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutY.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITexture.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggle.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMouseEvent.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputCaret.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputSelection.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputTool.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementBase.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarVert.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarHorz.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollArea.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggleGroup.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDragAndDropManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIViewport.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContent.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIListBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMenu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIHelper.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownBoxManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContextMenu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButtonBase.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITextInputEvent.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsProfilerOverlay.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIOptions.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIRenderTexture.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementContainer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownHitBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutUtility.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISliderHandle.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISlider.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIProgressBar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISpace.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownContent.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementStyle.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDimensions.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownMenu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDropDownAreaPlacement.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltipManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltip.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutKey.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsCGUIWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUICanvas.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUINavGroup.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGUISkinRTTI.cpp">
+      <Filter>RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsImageSprite.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSprite.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsTextSprite.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterial.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterials.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteManager.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsDrawHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsGameSettings.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsPaths.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes2D.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes3D.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererMaterialManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRenderQueue.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererUtility.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsInputConfiguration.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsVirtualInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\BsApplication.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Platform\BsCursor.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Debug\BsDebugDraw.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Localization\BsHEString.cpp">
+      <Filter>Localization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsThreading.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsAsyncOp.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsSpinLock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsThreadPool.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsTaskScheduler.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsTypes.h">
+      <Filter>Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsStdHeaders.h">
+      <Filter>Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsPrerequisitesUtil.h">
+      <Filter>Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsPlatformDefines.h">
+      <Filter>Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsFwdDeclUtil.h">
+      <Filter>Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsRTTIPrerequisites.h">
+      <Filter>Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColor.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsTextureAtlasLayout.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColorGradient.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsStringFormat.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsStringID.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsUnicode.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsBitmapWriter.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsLog.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsFileSystem.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsDataStream.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsPath.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsAny.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsBitfield.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsBitwise.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLib.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLibManager.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsEvent.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMessageHandler.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMessageHandlerFwd.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsModule.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsPlatformUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsServiceLocator.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTime.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTimer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUtil.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsFlags.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsCompression.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTriangulation.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsNonCopyable.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUUID.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsOctree.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDataBlob.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsLookupTable.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsSmallVector.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynArray.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMinHeap.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\RTTI\BsSerializedObjectRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\RTTI\BsIReflectableRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\RTTI\BsColorGradientRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsFrameAlloc.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsMemAllocProfiler.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsMemoryAllocator.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsStackAlloc.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsStaticAlloc.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsGroupAlloc.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsFreeAlloc.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsPoolAlloc.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\md5.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\json.hpp">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\TetGen\tetgen.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Error\BsException.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Error\BsCrashHandler.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestSuite.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestOutput.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsConsoleTestOutput.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsAABox.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsDegree.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsPlane.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsQuaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRadian.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRay.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsSphere.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2I.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector3I.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector4I.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsBounds.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsConvexVolume.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsTorus.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLineSegment3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2I.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsCapsule.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrixNxM.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLine2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsSIMD.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRandom.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsComplex.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinarySerializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsFileSerializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsMemorySerializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryDiff.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsSerializedObject.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryCloner.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsIReflectable.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIField.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIManagedDataBlockField.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIPlainField.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIReflectableField.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIReflectablePtrField.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIType.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32PlatformUtility.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32Window.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWindows.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBoxCollider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCollider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRigidbody.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphereCollider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCapsuleCollider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCPlaneCollider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCMeshCollider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCJoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCFixedJoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCHingeJoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDistanceJoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSliderJoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphericalJoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCD6Joint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCharacterController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioSource.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioListener.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCamera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRenderable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLight.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAnimation.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBone.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCReflectionProbe.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSkybox.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLightProbeVolume.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCParticleSystem.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDecal.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMaterial.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsRigidbody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsBoxCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphereCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCapsuleCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPlaneCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMesh.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsMeshCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFixedJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsDistanceJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsHingeJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSliderJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphericalJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsD6Joint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCharacterController.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCollider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsCommon.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThreadQueue.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThread.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectManager.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObject.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCommandQueue.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectCore.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectSync.h">
+      <Filter>CoreThread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsSpecificImporter.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImportOptions.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImporter.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsTextureImportOptions.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderIncludeImporter.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsMeshImportOptions.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderImportOptions.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsComponent.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectHandle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefab.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabDiff.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabUtility.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsTransform.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneActor.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsInputFwd.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsMouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsKeyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsGamepad.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsPlatform.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsFolderMonitor.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsDropTarget.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32DropTarget.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Platform.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Input.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLight.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderable.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererFactory.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererMeshData.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsParamBlocks.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsCamera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderSettings.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererExtension.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsReflectionProbe.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsSkybox.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLightProbeVolume.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsIBLUtility.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsGpuResourcePool.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsDecal.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerCPU.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerGPU.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilingManager.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsRenderStats.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVideoModeInfo.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDeclaration.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexData.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexBuffer.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTimerQuery.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTextureView.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsSubMesh.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsSamplerState.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderWindow.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTexture.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTarget.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRasterizerState.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsOcclusionQuery.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsIndexBuffer.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsHardwareBuffer.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuProgram.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParams.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamDesc.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamBlockBuffer.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParam.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuBuffer.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsEventQuery.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsDepthStencilState.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsBlendState.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPI.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPICapabilities.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsViewport.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsCommandBuffer.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineState.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineParamInfo.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDataDesc.h">
+      <Filter>RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\BsCoreApplication.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\BsCorePrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsTechnique.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShader.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsPass.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParam.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderManager.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParams.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsGpuParamsSet.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderInclude.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderVariation.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceManifest.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceHandle.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsGpuResourceData.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceMetaData.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsSavedResourceData.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsIResourceListener.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsTextData.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFontImportOptions.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFontDesc.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFont.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsCommonTypes.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsDeferredCallManager.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsIconUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsBlendStateRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsComponentRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsDepthStencilStateRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsFontImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsFontRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGameObjectHandleRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGameObjectRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGpuProgramRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGpuResourceDataRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMaterialRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshBaseRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshDataRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPassRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPixelDataRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsRasterizerStateRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceHandleRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceManifestRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSamplerStateRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSceneObjectRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTechniqueRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTextureRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsVertexDataDescRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsVertexDeclarationRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTextureImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceMetaDataRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsViewportRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSavedResourceDataRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderIncludeRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPrefabRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPrefabDiffRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsStringTableRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMaterialParamsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPhysicsMaterialRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCBoxColliderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCColliderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCRigidbodyRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCSphereColliderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCPlaneColliderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCCapsuleColliderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCMeshColliderRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCJointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCFixedJointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCHingeJointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCDistanceJointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCSliderJointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCSphericalJointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCD6JointRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCCharacterControllerRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPhysicsMeshRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioClipRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCAudioSourceRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCAudioListenerRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAnimationClipRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAnimationCurveRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSkeletonRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCCameraRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCameraRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsRenderSettingsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMorphShapesRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioClipImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCRenderableRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCLightRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCAnimationRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCBoneRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsRenderableRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsLightRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsReflectionProbeRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCReflectionProbeRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSkyboxRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsLightProbeVolumeRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCLightProbeVolumeRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTransformRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioListenerRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioSourceRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderVariationRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsParticleSystemRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsParticleDistributionRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSpriteTextureRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCParticleSystemRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsVectorFieldRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsDecalRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCDecalRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsHString.h">
+      <Filter>Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTable.h">
+      <Filter>Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTableManager.h">
+      <Filter>Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClip.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioListener.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioSource.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClipImportOptions.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioUtility.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioManager.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationCurve.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationClip.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeleton.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsCurveCache.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationUtility.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeletonMask.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsMorphShapes.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderWindowManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderStateManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsQueryManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsMeshManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsHardwareBufferManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsGpuProgramManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderAPIManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderAPIFactory.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsCommandBufferManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsTextureManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsResourceListenerManager.h">
+      <Filter>RenderAPI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsTexture.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelData.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelUtil.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelVolume.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsSpriteTexture.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsTransientMesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshHeap.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshData.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshBase.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshUtility.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleSystem.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEmitter.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEvolver.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleManager.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleDistribution.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleModule.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsVectorField.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Particles\BsParticleSet.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsInputConfiguration.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsVirtualInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Platform\BsCursor.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererMaterial.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererMaterialManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRenderElement.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRenderQueue.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererUtility.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsImageSprite.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSprite.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsTextSprite.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterial.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterials.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteManager.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsPlainTextRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsScriptCodeRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsScriptCodeImportOptionsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGUIElementStyleRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGUISkinRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsCGUIWidgetRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGameSettingsRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsResourceMappingRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\BsApplication.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\BsPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainText.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainTextImporter.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCode.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImporter.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImportOptions.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsEngineShaderIncludeHandler.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsGameResourceManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResourcesHelper.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Script\BsScriptManager.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsDrawHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsEnums.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsGameSettings.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsPaths.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsRectOffset.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes2D.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes3D.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElement.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementStyle.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILabel.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISkin.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayout.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutX.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutY.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISpace.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITexture.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggle.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUICommandEvent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputCaret.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputSelection.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputTool.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementBase.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarVert.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarHorz.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollArea.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBar.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggleGroup.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDragAndDropManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIViewport.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIListBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMenu.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContextMenu.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIHelper.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownBoxManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButtonBase.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITextInputEvent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMouseEvent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsProfilerOverlay.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIOptions.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIRenderTexture.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementContainer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownHitBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIVirtualButtonEvent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutUtility.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISliderHandle.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISlider.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIProgressBar.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownContent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDimensions.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIPanel.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutData.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownMenu.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDropDownAreaPlacement.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltipManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltip.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIWidget.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsCGUIWidget.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutKey.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUICanvas.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUINavGroup.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Debug\BsDebugDraw.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Localization\BsHEString.h">
+      <Filter>Localization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Foundation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\bsfx86\Source\Foundation\bsfCore\VSVisualizations.natvis">
+      <Filter>Platform</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32Resource.rc">
+      <Filter>Win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="2D">
+      <UniqueIdentifier>{4A484472-25C0-3E0A-BF81-E0C1ADF143C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators">
+      <UniqueIdentifier>{A85952B3-C9B2-3BDE-A795-CB242BE1AE7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{D0D7BF00-DD47-3575-B2CF-2D4C09771915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{D0A68F76-B7E4-3D32-80E6-57A69721CDC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{E6E83603-4BDB-3311-89EF-B1E10690BA5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreThread">
+      <UniqueIdentifier>{2F67D59D-1EE9-39BC-8D9D-3F9423935AF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{283E45E4-CCBC-32C0-975C-85164E5D7B56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{107D4E22-0C6A-3F5A-ACE6-3AA3E035CD5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{87D57F06-7191-3248-A609-26B7079B2E2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{83737119-213D-36FF-9553-68FD82281CDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{8BC9AD2D-1C7D-37FC-9815-F7569A4B6585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Importer">
+      <UniqueIdentifier>{A16C24EC-B143-3E80-B253-BA84FA68695E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{B53C8997-64FD-3285-A0A3-D62DAC8DE9D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Localization">
+      <UniqueIdentifier>{8C90FCCA-7F7E-3A07-A68C-25E711A293CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{3DE3736D-3C50-3EB5-93B0-AF3723C4D055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{86CAD04A-E7C6-39AD-A7AD-D6615634CFEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{FA08EE3A-6CEB-378D-A81D-AF6277427B33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{E5454DE2-F08F-303E-9A0E-72DEB3D97D64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{75F9F8AB-CB9E-3F6C-9B16-D146207D1D75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{57554CB9-42D5-38A8-8ACD-2B78F0DD8449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prerequisites">
+      <UniqueIdentifier>{1EF533E8-D197-33DA-AEBB-10D45E0C4D15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiling">
+      <UniqueIdentifier>{DC9A8686-0474-30AB-91CF-72B2CCE176D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTTI">
+      <UniqueIdentifier>{3D10A2CE-44E1-3947-815A-7EA62362F0ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{33189F59-6652-3BB5-B16F-A5E586E1CB0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderAPI">
+      <UniqueIdentifier>{0E1738F9-F00D-3C09-A8A9-9139B7C4BE19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderAPI\Managers">
+      <UniqueIdentifier>{6A68BA5A-B092-3C98-951F-4F3712BA02B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{D5BDFACB-4BA1-3D93-AF09-326C6ECCC6E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{41DCFD8D-B89C-3ED8-BE63-8CF67A2AE55A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{A30C2E98-9360-38A3-96BC-12011ADB8FD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{E7071B09-54A3-3812-A376-C6448386A333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{929231EA-A220-3634-86D1-3A9132522C2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{C8452C98-55F5-3E1B-937B-566EBEBFDAEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{1C9930C3-164C-3763-B515-B2D0D2481A1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{F9FF09C2-10B8-32BC-9C4D-9A930E25AB4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{A073EE45-BA77-3BF3-8BB9-6650F2015AD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{0E8B0ED7-602A-34A2-AB0B-817CB090099D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{AE7F1A72-155F-37BF-AB1C-3883AEE3C6F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{255C3071-D56F-35A8-937F-DD82C8591E52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

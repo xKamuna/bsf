@@ -1,0 +1,2991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{39DDB930-3EC7-3E44-A635-15E482207955}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>bsf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\bsfx86\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bsf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bsf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\bsfx86\bin\x86\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bsf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bsf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\bsfx86\bin\x86\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bsf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bsf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\bsfx86\bin\x86\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bsf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bsf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHs-c- /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4530</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_DEBUG;CMAKE_INTDIR="Debug";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_DEBUG;CMAKE_INTDIR=\"Debug\";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll		Copying D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll		Copying D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll	</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Dependencies\nvtt\lib\Debug\nvtt.lib;..\..\Dependencies\nvtt\lib\Debug\nvimage.lib;..\..\Dependencies\nvtt\lib\Debug\bc6h.lib;..\..\Dependencies\nvtt\lib\Debug\bc7.lib;..\..\Dependencies\nvtt\lib\Debug\nvcore.lib;..\..\Dependencies\nvtt\lib\Debug\nvmath.lib;..\..\Dependencies\nvtt\lib\Debug\nvthread.lib;..\..\Dependencies\nvtt\lib\Debug\squish.lib;..\..\Dependencies\snappy\lib\Debug\Snappy.lib;Winmm.lib;dinput8.lib;xinput9_1_0.lib;dxguid.lib;DbgHelp.lib;IPHLPAPI.lib;Rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/bsfx86/lib/x86/Debug/bsf.lib</ImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <ProgramDataBaseFile>D:/bsfx86/bin/x86/Debug/bsf.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHs-c- /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4530</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_RELEASE;CMAKE_INTDIR="Release";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_RELEASE;CMAKE_INTDIR=\"Release\";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll		Copying D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll		Copying D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll	</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Dependencies\nvtt\lib\Release\nvtt.lib;..\..\Dependencies\nvtt\lib\Release\nvimage.lib;..\..\Dependencies\nvtt\lib\Release\bc6h.lib;..\..\Dependencies\nvtt\lib\Release\bc7.lib;..\..\Dependencies\nvtt\lib\Release\nvcore.lib;..\..\Dependencies\nvtt\lib\Release\nvmath.lib;..\..\Dependencies\nvtt\lib\Release\nvthread.lib;..\..\Dependencies\nvtt\lib\Release\squish.lib;..\..\Dependencies\snappy\lib\Release\Snappy.lib;Winmm.lib;dinput8.lib;xinput9_1_0.lib;dxguid.lib;DbgHelp.lib;IPHLPAPI.lib;Rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/bsfx86/lib/x86/Release/bsf.lib</ImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/bsfx86/bin/x86/Release/bsf.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHs-c- /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4530</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_MINSIZEREL;CMAKE_INTDIR="MinSizeRel";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_MINSIZEREL;CMAKE_INTDIR=\"MinSizeRel\";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll		Copying D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll		Copying D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll	</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Dependencies\nvtt\lib\Release\nvtt.lib;..\..\Dependencies\nvtt\lib\Release\nvimage.lib;..\..\Dependencies\nvtt\lib\Release\bc6h.lib;..\..\Dependencies\nvtt\lib\Release\bc7.lib;..\..\Dependencies\nvtt\lib\Release\nvcore.lib;..\..\Dependencies\nvtt\lib\Release\nvmath.lib;..\..\Dependencies\nvtt\lib\Release\nvthread.lib;..\..\Dependencies\nvtt\lib\Release\squish.lib;..\..\Dependencies\snappy\lib\Release\Snappy.lib;Winmm.lib;dinput8.lib;xinput9_1_0.lib;dxguid.lib;DbgHelp.lib;IPHLPAPI.lib;Rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/bsfx86/lib/x86/MinSizeRel/bsf.lib</ImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/bsfx86/bin/x86/MinSizeRel/bsf.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHs-c- /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4530</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_RELWITHDEBINFO;CMAKE_INTDIR="RelWithDebInfo";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DEBUG;BS_EXPORTS;BS_CORE_EXPORTS;BS_UTILITY_EXPORTS;BS_CONFIG=BS_CONFIG_RELWITHDEBINFO;CMAKE_INTDIR=\"RelWithDebInfo\";bsf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\bsfx86\Source\Foundation\bsfUtility;D:\bsfx86\Source\Foundation\bsfCore;D:\bsfx86\Source\Foundation\bsfEngine;D:\bsfx86\Generated\bsfUtility;D:\bsfx86\Generated\bsfEngine;D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty;D:\bsfx86\Dependencies\nvtt\include;D:\bsfx86\Dependencies\snappy\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll		Copying D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll		Copying D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll		Copying D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll		Copying D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll		Copying D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll		Copying D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll		Copying D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll		Copying D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll		Copying D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll		Copying D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll		Copying D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll		Copying D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll	</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/OpenAL32.dll D:/bsfx86/bin/x64/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CharacterKinematicCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CommonCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll D:/bsfx86/bin/x64/Debug/PhysX3CookingCHECKED_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbis.dll D:/bsfx86/bin/x64/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Debug/libvorbisfile.dll D:/bsfx86/bin/x64/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x64/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll D:/bsfx86/bin/x64/OptimizedDebug/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x64/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x64/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/OpenAL32.dll D:/bsfx86/bin/x64/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll D:/bsfx86/bin/x64/Release/PhysX3CharacterKinematic_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Common_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll D:/bsfx86/bin/x64/Release/PhysX3Cooking_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/PhysX3_x64.dll D:/bsfx86/bin/x64/Release/PhysX3_x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x64/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbis.dll D:/bsfx86/bin/x64/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x64/Release/libvorbisfile.dll D:/bsfx86/bin/x64/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/OpenAL32.dll D:/bsfx86/bin/x86/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CharacterKinematicCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CommonCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll D:/bsfx86/bin/x86/Debug/PhysX3CookingCHECKED_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Debug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbis.dll D:/bsfx86/bin/x86/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Debug/libvorbisfile.dll D:/bsfx86/bin/x86/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll D:/bsfx86/bin/x86/OptimizedDebug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll D:/bsfx86/bin/x86/OptimizedDebug/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll D:/bsfx86/bin/x86/OptimizedDebug/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll D:/bsfx86/bin/x86/OptimizedDebug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/OpenAL32.dll D:/bsfx86/bin/x86/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll D:/bsfx86/bin/x86/Release/PhysX3CharacterKinematic_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Common_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll D:/bsfx86/bin/x86/Release/PhysX3Cooking_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/PhysX3_x86.dll D:/bsfx86/bin/x86/Release/PhysX3_x86.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll D:/bsfx86/bin/x86/Release/libFLAC_dynamic.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbis.dll D:/bsfx86/bin/x86/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different D:/bsfx86/bin/x86/Release/libvorbisfile.dll D:/bsfx86/bin/x86/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Dependencies\nvtt\lib\Release\nvtt.lib;..\..\Dependencies\nvtt\lib\Release\nvimage.lib;..\..\Dependencies\nvtt\lib\Release\bc6h.lib;..\..\Dependencies\nvtt\lib\Release\bc7.lib;..\..\Dependencies\nvtt\lib\Release\nvcore.lib;..\..\Dependencies\nvtt\lib\Release\nvmath.lib;..\..\Dependencies\nvtt\lib\Release\nvthread.lib;..\..\Dependencies\nvtt\lib\Release\squish.lib;..\..\Dependencies\snappy\lib\Release\Snappy.lib;Winmm.lib;dinput8.lib;xinput9_1_0.lib;dxguid.lib;DbgHelp.lib;IPHLPAPI.lib;Rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/bsfx86/lib/x86/RelWithDebInfo/bsf.lib</ImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/bsfx86/bin/x86/RelWithDebInfo/bsf.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Foundation\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/bsfx86/Source/Foundation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-file D:/bsfx86/Source/Foundation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/bsfx86/Source/Foundation/CMakeLists.txt;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Foundation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/bsfx86/Source/Foundation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-file D:/bsfx86/Source/Foundation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/bsfx86/Source/Foundation/CMakeLists.txt;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Foundation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/bsfx86/Source/Foundation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-file D:/bsfx86/Source/Foundation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/bsfx86/Source/Foundation/CMakeLists.txt;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Foundation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/bsfx86/Source/Foundation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/bsfx86 -BD:/bsfx86 --check-stamp-file D:/bsfx86/Source/Foundation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/bsfx86/Source/Foundation/CMakeLists.txt;D:\bsfx86\Source\CMake\Modules\Findnvtt.cmake;D:\bsfx86\Source\CMake\Modules\Findsnappy.cmake;D:\bsfx86\Source\Foundation\CMakeLists.txt;D:\bsfx86\Source\Foundation\bsfCore\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfEngine\CMakeSources.cmake;D:\bsfx86\Source\Foundation\bsfUtility\CMakeSources.cmake;D:\bsfx86\Source\Foundation\default_headers.h.cxx;D:\bsfx86\Source\Foundation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\bsfx86\Source\Foundation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsThreading.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsAsyncOp.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsSpinLock.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsThreadPool.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsTaskScheduler.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\md5.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\TetGen\tetgen.cxx" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\TetGen\predicates.cxx" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsTypes.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsStdHeaders.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsPrerequisitesUtil.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsPlatformDefines.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsFwdDeclUtil.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Prerequisites\BsRTTIPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColor.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsTextureAtlasLayout.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColorGradient.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsString.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsStringFormat.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsStringID.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsUnicode.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColor.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsTextureAtlasLayout.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Image\BsColorGradient.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLib.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLibManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMessageHandler.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTimer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTime.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUtil.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsCompression.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTriangulation.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUUID.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsLookupTable.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsBitmapWriter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsDebug.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsLog.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsFileSystem.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsDataStream.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsPath.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsDataStream.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsFileSystem.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\FileSystem\BsPath.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsAsyncOp.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsTaskScheduler.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Threading\BsThreadPool.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsAny.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsBitfield.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsBitwise.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLib.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynLibManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsEvent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMessageHandler.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMessageHandlerFwd.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsModule.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsPlatformUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsServiceLocator.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTime.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTimer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUtil.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsFlags.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsCompression.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsTriangulation.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsNonCopyable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsUUID.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsOctree.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDataBlob.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsLookupTable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsSmallVector.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsDynArray.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Utility\BsMinHeap.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsFrameAlloc.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsStackAlloc.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsMemoryAllocator.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsIReflectable.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIField.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIType.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsBitmapWriter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsLog.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Debug\BsDebug.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\RTTI\BsSerializedObjectRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\RTTI\BsIReflectableRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\RTTI\BsColorGradientRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsFrameAlloc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsMemAllocProfiler.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsMemoryAllocator.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsStackAlloc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsStaticAlloc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsGroupAlloc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsFreeAlloc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Allocators\BsPoolAlloc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\md5.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\json.hpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\ThirdParty\TetGen\tetgen.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Error\BsException.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Error\BsCrashHandler.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsAABox.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsDegree.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMath.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix3.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix4.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsPlane.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsQuaternion.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRadian.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRay.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsSphere.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2I.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector3.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector4.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsBounds.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsConvexVolume.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsTorus.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect3.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2I.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLineSegment3.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsCapsule.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLine2.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestSuite.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestOutput.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsConsoleTestOutput.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestSuite.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsTestOutput.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Testing\BsConsoleTestOutput.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsMemorySerializer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsFileSerializer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinarySerializer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryDiff.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsSerializedObject.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryCloner.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsAABox.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsDegree.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMath.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix3.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrix4.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsPlane.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsQuaternion.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRadian.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRay.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsSphere.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector2I.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector3.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector3I.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector4.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsVector4I.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsBounds.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsConvexVolume.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsTorus.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLineSegment3.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect3.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRect2I.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsCapsule.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsMatrixNxM.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsLine2.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsSIMD.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsRandom.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Math\BsComplex.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Error\BsCrashHandler.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinarySerializer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsFileSerializer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsMemorySerializer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryDiff.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsSerializedObject.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Serialization\BsBinaryCloner.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsStringID.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsString.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\String\BsUnicode.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsIReflectable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIField.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIManagedDataBlockField.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIPlainField.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIReflectableField.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIReflectablePtrField.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Reflection\BsRTTIType.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32FileSystem.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32CrashHandler.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32PlatformUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32Window.cpp" />
+    <ResourceCompile Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32Resource.rc" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32PlatformUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWin32Window.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfUtility\Private\Win32\BsWindows.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBoxCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRigidbody.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphereCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCapsuleCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCPlaneCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCMeshCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCFixedJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCHingeJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDistanceJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSliderJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphericalJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCD6Joint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCharacterController.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioSource.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioListener.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCamera.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRenderable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLight.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAnimation.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBone.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCReflectionProbe.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSkybox.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLightProbeVolume.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCParticleSystem.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDecal.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysics.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMaterial.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsRigidbody.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsBoxCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphereCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCapsuleCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPlaneCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMesh.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsMeshCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFixedJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsDistanceJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsHingeJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSliderJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphericalJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsD6Joint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCharacterController.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsCommon.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThreadQueue.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThread.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObject.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCommandQueue.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectCore.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectSync.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsSpecificImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsTextureImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderIncludeImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsMeshImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsComponent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObject.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectHandle.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneObject.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefab.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabDiff.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsTransform.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneActor.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsInputFwd.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsInput.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsMouse.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsKeyboard.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsGamepad.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsPlatform.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsFolderMonitor.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsDropTarget.h" />
+    <Natvis Include="D:\bsfx86\Source\Foundation\bsfCore\VSVisualizations.natvis" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32DropTarget.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Platform.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Input.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLight.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererFactory.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererMeshData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsParamBlocks.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsCamera.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderSettings.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererExtension.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsReflectionProbe.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsSkybox.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLightProbeVolume.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsIBLUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsGpuResourcePool.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsDecal.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsHString.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTable.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTableManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMaterialRTTI.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerCPU.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerGPU.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilingManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsRenderStats.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVideoModeInfo.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDeclaration.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTimerQuery.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTextureView.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsSubMesh.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsSamplerState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderWindow.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTexture.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTarget.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRasterizerState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsOcclusionQuery.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsIndexBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsHardwareBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuProgram.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParams.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamDesc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamBlockBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParam.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsEventQuery.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsDepthStencilState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsBlendState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPICapabilities.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsViewport.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsCommandBuffer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineState.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineParamInfo.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDataDesc.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCommandQueue.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObject.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThread.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreThreadQueue.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\CoreThread\BsCoreObjectCore.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\BsCoreApplication.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\BsCorePrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsTechnique.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShader.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsPass.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterial.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParam.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParams.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsGpuParamsSet.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderInclude.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderVariation.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResources.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceManifest.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceHandle.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResource.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsGpuResourceData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceMetaData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsSavedResourceData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsIResourceListener.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsDeferredCallManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsIconUtility.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsTextData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFontImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFontDesc.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFont.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerCPU.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilerGPU.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Profiling\BsProfilingManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBoxCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRigidbody.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphereCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCPlaneCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCapsuleCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCMeshCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCFixedJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCHingeJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDistanceJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSliderJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSphericalJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCD6Joint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCharacterController.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioSource.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAudioListener.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCCamera.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCRenderable.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLight.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCAnimation.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCBone.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCReflectionProbe.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCSkybox.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCLightProbeVolume.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCParticleSystem.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Components\BsCDecal.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Platform\BsDropTarget.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32FolderMonitor.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Platform.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32DropTarget.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Input.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Mouse.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Keyboard.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Win32\BsWin32Gamepad.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsImportOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsSpecificImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsTextureImportOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderIncludeImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsMeshImportOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Importer\BsShaderImportOptions.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsCommonTypes.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsDeferredCallManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Utility\BsIconUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsBlendStateRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsComponentRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsDepthStencilStateRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsFontImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsFontRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGameObjectHandleRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGameObjectRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGpuProgramRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsGpuResourceDataRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMaterialRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshBaseRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshDataRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPassRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPixelDataRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsRasterizerStateRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceHandleRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceManifestRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSamplerStateRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSceneObjectRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTechniqueRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTextureRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsVertexDataDescRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsVertexDeclarationRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTextureImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsResourceMetaDataRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsViewportRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSavedResourceDataRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderIncludeRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPrefabRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPrefabDiffRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsStringTableRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMaterialParamsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMeshRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPhysicsMaterialRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCBoxColliderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCColliderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCRigidbodyRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCSphereColliderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCPlaneColliderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCCapsuleColliderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCMeshColliderRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCJointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCFixedJointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCHingeJointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCDistanceJointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCSliderJointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCSphericalJointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCD6JointRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCCharacterControllerRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsPhysicsMeshRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioClipRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCAudioSourceRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCAudioListenerRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAnimationClipRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAnimationCurveRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSkeletonRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCCameraRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCameraRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsRenderSettingsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsMorphShapesRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioClipImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCRenderableRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCLightRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCAnimationRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCBoneRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsRenderableRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsLightRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsReflectionProbeRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCReflectionProbeRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSkyboxRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsLightProbeVolumeRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCLightProbeVolumeRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsTransformRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioListenerRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsAudioSourceRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsShaderVariationRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsParticleSystemRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsParticleDistributionRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsSpriteTextureRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCParticleSystemRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsVectorFieldRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsDecalRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\RTTI\BsCDecalRTTI.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLight.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderable.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererMeshData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsParamBlocks.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsCamera.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRenderSettings.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsRendererExtension.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsReflectionProbe.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsSkybox.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsLightProbeVolume.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsIBLUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsGpuResourcePool.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Renderer\BsDecal.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsGpuResourceData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResource.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceHandle.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceManifest.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResources.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsResourceMetaData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsSavedResourceData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Resources\BsIResourceListener.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterial.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsPass.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShader.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsTechnique.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParam.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsMaterialParams.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsGpuParamsSet.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderInclude.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Material\BsShaderVariation.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Input\BsInput.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsHString.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTable.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Localization\BsStringTableManager.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFont.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsFontImportOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Text\BsTextData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsBlendState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsDepthStencilState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsEventQuery.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParam.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamBlockBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParams.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuProgram.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsIndexBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsOcclusionQuery.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRasterizerState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTarget.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderTexture.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderWindow.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsSamplerState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTextureView.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsTimerQuery.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDeclaration.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVideoModeInfo.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPI.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsRenderAPICapabilities.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsViewport.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsCommandBuffer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineState.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuPipelineParamInfo.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsVertexDataDesc.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\RenderAPI\BsGpuParamDesc.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\BsCoreApplication.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysics.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMaterial.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsRigidbody.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsBoxCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphereCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPlaneCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCapsuleCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsPhysicsMesh.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsMeshCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsFixedJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsDistanceJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsHingeJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSliderJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsSphericalJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsD6Joint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Physics\BsCharacterController.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsComponent.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObject.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectHandle.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsGameObjectManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneObject.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefab.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabDiff.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsPrefabUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsTransform.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Scene\BsSceneActor.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudio.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClip.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioListener.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioSource.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClipImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioManager.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudio.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClip.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioListener.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioSource.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioClipImportOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Audio\BsAudioManager.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationCurve.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationClip.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeleton.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimation.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsCurveCache.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeletonMask.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsMorphShapes.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationCurve.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationClip.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeleton.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimation.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsAnimationUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsSkeletonMask.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Animation\BsMorphShapes.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderWindowManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderStateManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsQueryManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsMeshManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsHardwareBufferManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsGpuProgramManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderAPIManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderAPIFactory.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsCommandBufferManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsTextureManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsResourceListenerManager.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsGpuProgramManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsHardwareBufferManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsMeshManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsQueryManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderStateManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderWindowManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsRenderAPIManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsCommandBufferManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsTextureManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Managers\BsResourceListenerManager.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsTexture.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelUtil.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelVolume.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsSpriteTexture.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsTexture.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsPixelUtil.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Image\BsSpriteTexture.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsTransientMesh.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshHeap.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshBase.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMesh.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshUtility.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMesh.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshBase.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshData.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshHeap.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsTransientMesh.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Mesh\BsMeshUtility.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleSystem.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEmitter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEvolver.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleDistribution.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleModule.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsVectorField.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfCore\Private\Particles\BsParticleSet.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleSystem.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEmitter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleEvolver.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsParticleDistribution.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfCore\Particles\BsVectorField.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImportOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCode.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainTextImporter.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainText.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResources.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsEngineShaderIncludeHandler.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsGameResourceManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResourcesHelper.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Script\BsScriptManager.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsInputConfiguration.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsVirtualInput.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElement.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILabel.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISkin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayout.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutX.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutY.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButton.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITexture.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggle.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputBox.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMouseEvent.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputCaret.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputSelection.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputTool.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementBase.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarVert.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarHorz.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollArea.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBar.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggleGroup.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDragAndDropManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIViewport.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContent.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIListBox.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMenu.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIHelper.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownBoxManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContextMenu.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButtonBase.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITextInputEvent.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsProfilerOverlay.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIOptions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIRenderTexture.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementContainer.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownHitBox.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISliderHandle.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISlider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIProgressBar.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISpace.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownContent.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementStyle.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDimensions.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIPanel.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownMenu.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDropDownAreaPlacement.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltipManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltip.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIWidget.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutKey.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsCGUIWidget.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUICanvas.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUINavGroup.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Platform\BsCursor.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererMaterial.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererMaterialManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRenderElement.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRenderQueue.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererUtility.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGUISkinRTTI.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsImageSprite.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSprite.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsTextSprite.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterial.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterials.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsDrawHelper.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsGameSettings.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsPaths.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes2D.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes3D.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsImageSprite.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSprite.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsTextSprite.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterial.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteMaterials.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\2D\BsSpriteManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsPlainTextRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsScriptCodeRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsScriptCodeImportOptionsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGUIElementStyleRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGUISkinRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsCGUIWidgetRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsGameSettingsRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Private\RTTI\BsResourceMappingRTTI.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\BsApplication.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\BsPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainText.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsPlainTextImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCode.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImporter.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsScriptCodeImportOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResources.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsEngineShaderIncludeHandler.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsGameResourceManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Resources\BsBuiltinResourcesHelper.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Script\BsScriptManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsDrawHelper.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsEnums.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsGameSettings.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsPaths.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsRectOffset.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes2D.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Utility\BsShapeMeshes3D.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererMaterialManager.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRenderQueue.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Renderer\BsRendererUtility.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsInputConfiguration.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Input\BsVirtualInput.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElement.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementStyle.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILabel.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISkin.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayout.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutX.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutY.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISpace.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButton.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITexture.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggle.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputBox.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUICommandEvent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputCaret.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputSelection.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIInputTool.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementBase.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarVert.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBarHorz.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollArea.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIScrollBar.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIToggleGroup.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDragAndDropManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIViewport.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIListBox.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMenu.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIContextMenu.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIHelper.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownBoxManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIButtonBase.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITextInputEvent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIMouseEvent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsProfilerOverlay.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIOptions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIRenderTexture.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIElementContainer.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownHitBox.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIVirtualButtonEvent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutUtility.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISliderHandle.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUISlider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIProgressBar.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownContent.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDimensions.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIPanel.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUILayoutData.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIDropDownMenu.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsDropDownAreaPlacement.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltipManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUITooltip.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUIWidget.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsCGUIWidget.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutManager.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsShortcutKey.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUICanvas.h" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\GUI\BsGUINavGroup.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\BsApplication.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Platform\BsCursor.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Debug\BsDebugDraw.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Debug\BsDebugDraw.cpp" />
+    <ClInclude Include="D:\bsfx86\Source\Foundation\bsfEngine\Localization\BsHEString.h" />
+    <ClCompile Include="D:\bsfx86\Source\Foundation\bsfEngine\Localization\BsHEString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\bsfx86\ZERO_CHECK.vcxproj">
+      <Project>{BE6DA378-480B-3E1F-9128-2DFB6D111435}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

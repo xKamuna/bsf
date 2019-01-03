@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXPlugin.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysX.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXMaterial.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXRigidbody.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXBoxCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsFPhysXCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXSphereCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXPlaneCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXCapsuleCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXMesh.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXMeshCollider.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsFPhysXJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXFixedJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXDistanceJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXHingeJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXSliderJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXSphericalJoint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXD6Joint.cpp" />
+    <ClCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXCharacterController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXPrerequisites.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysX.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXMaterial.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXRigidbody.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXBoxCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsFPhysXCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXSphereCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXPlaneCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXCapsuleCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXMesh.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXMeshCollider.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsFPhysXJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXFixedJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXDistanceJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXHingeJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXSliderJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXSphericalJoint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXD6Joint.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXCharacterController.h" />
+    <ClInclude Include="D:\bsfx86\Source\Plugins\bsfPhysX\RTTI\BsPhysXMeshRTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\bsfx86\Source\Plugins\bsfPhysX\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\bsfx86\Source\Plugins\bsfPhysX\BsPhysXWin32Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RTTI">
+      <UniqueIdentifier>{3D10A2CE-44E1-3947-815A-7EA62362F0ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
